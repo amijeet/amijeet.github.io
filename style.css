@@ -1,0 +1,16 @@
+h1 {
+	color: black;
+}
+p {
+	color: black;
+}
+body {
+	background-color: #21fc0d;
+}
+img {
+	border-radius: 50%;
+}
+div {
+	font-family: "Sofia";
+	font-size: large;
+}
