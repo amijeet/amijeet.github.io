@@ -1,54 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My personal site :)</title>
 		<link rel="stylesheet" href="style.css" />
 		<script src="script.js"></script>
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css?family=Sofia"
-		/>
-		<title>Personal website</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<center>
-			<a href="https://github.com/amijeet"
-				><img src="githubProfilePic.jpeg" alt="displayPicture"
-			/></a>
-			<h1 style="font-family: 'Sofia'">Amijeet Thakur</h1>
-			<p>
-				Hello there!, welcome to my noob website. My name is Amijeet Thakur, I
-				am a final year undergraduate student from the depeartment of Mechanical
-				Engineering,
-				<strong>IIT Kharagpur</strong>.
-			</p>
-			<p>
-				I love algorithms, data structures, web-development, making games, etc.
-				I am also interested in research in reinforcement learning.
-			</p>
-			<p>
-				Here are some of the fun projects I made related to my interests in
-				software engineering.
-			</p>
-			<div id="pathfinder" onclick="pathfinder()" style="cursor: pointer">
-				<strong>Pathfinding Visualizer</strong>
-			</div>
-			<br />
-			<div id="sudoku" onclick="sudoku()" style="cursor: pointer">
-				<strong>Sudoku Solver</strong>
-			</div>
-			<br />
-			<div id="maze" onclick="maze()" style="cursor: pointer">
-				<strong>Random Maze Generator</strong>
-			</div>
-			<br />
-			<div id="snake" onclick="snake()" style="cursor: pointer">
-				<strong>Snake game</strong>
-			</div>
-			<br />
-			<div id="sort" onclick="sort()" style="cursor: pointer">
-				<strong>Sorting Visualizer</strong>
-			</div>
-		</center>
+		<table cellspacing="20">
+			<tr>
+				<td>
+					<img
+						src="githubProfilePic.jpeg"
+						alt="displayPicture"
+						width="250"
+						height="250"
+					/>
+				</td>
+				<td>
+					<h1>Amijeet Thakur</h1>
+					<p>A Software Engineering enthusiast 👽</p>
+				</td>
+			</tr>
+		</table>
+		<hr />
+		<h3>Projects</h3>
+				<p><div onclick="pathfinder()">Pathfinder visualizer</div></p>
+				<p><div onclick="sudoku()">Sudoku solver</div></p>
+				<p><div onclick="maze()">Random maze generator</div></p>
+				<p><div onclick="snake()">The old school snake game</div></p>
+				<p><div onclick="sort()">Sorting visualizer</div></p>
+		
+		<hr>
+		<h3>Hobbies</h3>
+		<p>I love swimming.</p>
+		<p>I love playing keyboard.</p>
+		<p>I also love spending my time coding.</p>
+		<p>web development intrigues me.</p>
+		<!-- <ul>
+			<li>I love swimming.</li>
+			<li>I love playing keyboard.</li>
+			<li>Coding.</li>
+			<li>Web Development.</li>
+		</ul> -->
+		<h3><a href="contactMe.html">Contact me</a></h3>
+	</center>
 	</body>
 </html>

@@ -1,16 +1,24 @@
-h1 {
-	color: black;
-}
-p {
-	color: black;
-}
-body {
-	background-color: white;
-}
 img {
-	border-radius: 100%;
+	border-radius: 50%;
+	clip-path: circle();
 }
-div {
-	font-family: "Sofia";
-	font-size: large;
+table {
+	cellspacing = "20";
+}
+hr{
+	border-style: dotted;
+	color: grey;
+	width: 20%;
+	border-width: 10px;
+	border-style: dotted none none;
+}
+body{
+	background-color: #fdb827;
+	font-family: 'B612', sans-serif;
+}
+div{
+	cursor: pointer;
+}
+ul{
+	style
 }
