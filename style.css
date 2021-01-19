@@ -13,7 +13,7 @@ hr{
 	border-style: dotted none none;
 }
 body{
-	background-color: #fdb827;
+	background-image: linear-gradient(#111d5e, #c70039, #f37121, #c0e218);
 	font-family: 'B612', sans-serif;
 }
 div{
