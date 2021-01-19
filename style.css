@@ -15,7 +15,7 @@ hr{
 body{
 	/* height: 100vh;
 	width: 100vw; */
-	box-shadow: inset 0px 25vh 0px #00af91, inset 0px 50vh 0px #007965, inset 0px 75vh 0px #f58634, inset 0px 100vh 0px #ffcc29, inset 0px 125vh 0px #ec4646;
+	box-shadow: inset 0px 25vh 0px #e23e57, inset 0px 50vh 0px #88304e, inset 0px 75vh 0px #522546, inset 0px 100vh 0px #311d3f, inset 0px 125vh 0px #212121;
 	/* background-image: linear-gradient(to bottom, #111d5e, #c70039, #f37121, #c0e218); */
 	font-family: 'B612', sans-serif;
 }
