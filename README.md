@@ -1,1 +1,1 @@
-No need to judge me rn, this repo is under construction.
+Hey there, dont judge me early, this repo is under construction.
