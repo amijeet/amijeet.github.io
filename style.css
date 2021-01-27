@@ -1,27 +1,51 @@
-img {
-	border-radius: 50%;
-	clip-path: circle();
+/* 	Light theme - #bee5d3 
+	Dark theme - */
+body {
+	margin: 0;
+	text-align: center;
+	font-family: "Merriweather", serif;
 }
-table {
-	cellspacing = "20";
+h1 {
+	margin-top: 0;
+	font-size: 300%;
+	/* used padding so that the div stays at the top */
+	padding-top: 120px;
+	font-family: "Sacramento", cursive;
 }
-hr{
-	border-style: dotted;
-	color: grey;
-	width: 20%;
-	border-width: 10px;
-	border-style: dotted none none;
+h2 {
+	font-family: "Montserrat", sans-serif;
 }
-body{
-	/* height: 100vh;
-	width: 100vw; */
-	/* box-shadow: inset 0px 25vh 0px #e23e57, inset 0px 50vh 0px #88304e, inset 0px 75vh 0px #522546, inset 0px 100vh 0px #311d3f, inset 0px 125vh 0px #212121; */
-	background-image: linear-gradient(#e23e57, #88304e, #522546, #311d3f, #212121);
-	font-family: 'B612', sans-serif;
+h3 {
+	font-family: "Montserrat", sans-serif;
 }
-div{
-	cursor: pointer;
+.copyLine {
+	font-size: 80%;
 }
-ul{
-	style
+.container-top {
+	position: relative;
+	background-color: #bee5d3;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0;
 }
+.clouds {
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+}
+.mountain {
+	width: 600px;
+	height: 600px;
+	padding: 10px;
+	position: relative;
+	top: 50px;
+}
+.top-cloud {
+	position: absolute;
+	right: 150px;
+}
+.bottom-cloud {
+	position: absolute;
+	top: 200px;
+	left: 150px;
+}
+/* cloud dimensions 200*100 is the best */
