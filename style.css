@@ -36,8 +36,8 @@ hr {
 	border-left: none;
 	border-right: none;
 	border-bottom: none;
-	border-width: 0.8em;
-	width: 20%;
+	border-width: 0.7em;
+	width: 10%;
 	color: #eaf6f6;
 	margin: 80px auto 80px auto;
 	/* padding: 80px auto 80px auto; */
@@ -140,4 +140,9 @@ a {
 	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
 	margin-top: 50px;
 	margin-bottom: 0;
+}
+.contact-des {
+	width: 40%;
+	/* text-align: center; */
+	margin: 50px auto 50px auto;
 }
