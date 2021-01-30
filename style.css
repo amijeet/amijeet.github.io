@@ -3,6 +3,7 @@
 	007965
 	f58634 */
 body {
+	color: #40514e;
 	margin: 0;
 	text-align: center;
 	font-family: "Merriweather", serif;
@@ -19,10 +20,23 @@ h2 {
 	font-family: "Montserrat", sans-serif;
 	margin: 0;
 	padding: 10px;
-	font-weight: 900;
+	font-size: 250%;
+	margin-bottom: 50px;
 }
 h3 {
 	font-family: "Montserrat", sans-serif;
+	font-weight: bolder;
+	/* padding-top: 50px; */
+}
+hr {
+	border-top: dotted;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-width: 0.8em;
+	width: 20%;
+	color: grey;
+	margin: 80px auto 80px auto;
 }
 .copyLine {
 	font-size: 1.2rem;
@@ -61,24 +75,22 @@ h3 {
 	font-size: 90px;
 }
 .aboutMe {
-	margin: auto 250px auto 250px;
+	margin: auto 350px auto 350px;
 }
 .about-me {
 	margin-top: 50px;
 }
 .amijeet-img {
-	border-radius: 50%;
+	border-radius: 100%;
 	margin-top: 30px;
 	width: 25%;
-	/* height: 100%; */
-	float: left;
 	padding-right: 20px;
 }
 .something-about-me-description {
-	text-align: left;
+	text-align: justify;
 }
 .skills {
-	margin: 100px 250px auto 250px;
+	margin: 80px 250px auto 250px;
 }
 .coding-img {
 	width: 25%;
@@ -86,18 +98,31 @@ h3 {
 	padding-left: 20px;
 	/* border-radius: 50%; */
 }
-.experience {
-	margin: 100px 250px auto 250px;
+.projects {
+	text-align: left;
+	padding: 50px;
 }
 .desk {
 	width: 25%;
 	float: left;
 	padding-right: 20px;
 }
-.experience-des {
+.project-des {
 	text-align: left;
 }
-.skills-des {
+.pro-languages-des {
 	text-align: left;
+}
+a {
+	padding: 0 20px 0 20px;
+}
+.contactMeFooter {
+	display: inline;
+	position: relative;
+}
+.cp-text {
+	color: rgba(0, 0, 0, 0.7);
+	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+	margin-top: 50px;
 }
 /* cloud dimensions 200*100 is the best */
