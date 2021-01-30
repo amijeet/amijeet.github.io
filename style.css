@@ -28,6 +28,9 @@ h3 {
 	font-weight: bolder;
 	/* padding-top: 50px; */
 }
+p {
+	line-height: 1.5;
+}
 hr {
 	border-top: dotted;
 	border-left: none;
