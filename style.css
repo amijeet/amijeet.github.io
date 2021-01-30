@@ -35,8 +35,10 @@ hr {
 	border-bottom: none;
 	border-width: 0.8em;
 	width: 20%;
-	color: grey;
+	color: #eaf6f6;
 	margin: 80px auto 80px auto;
+	/* padding: 80px auto 80px auto; */
+	background-color: #bbdfc8;
 }
 .copyLine {
 	font-size: 1.2rem;
@@ -50,6 +52,15 @@ hr {
 	width: 100%;
 	height: 800px;
 }
+.everything-else {
+	background-color: #bbdfc8;
+}
+/* .container-middle {
+	background-color: #bbdfc8;
+}
+.container-bottom {
+	background-color: #bbdfc8;
+} */
 .clouds {
 	width: 140px;
 	height: 70px;
@@ -125,4 +136,5 @@ a {
 	color: rgba(0, 0, 0, 0.7);
 	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
 	margin-top: 50px;
+	margin-bottom: 0;
 }
