@@ -47,6 +47,8 @@ hr {
 	background-color: #00af91;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 0;
+	width: 100%;
+	height: 800px;
 }
 .clouds {
 	width: 140px;
@@ -58,7 +60,7 @@ hr {
 	height: 550px;
 	/* padding: 10px; */
 	position: relative;
-	top: 10px;
+	bottom: 40px;
 }
 .top-cloud {
 	position: absolute;
@@ -82,9 +84,8 @@ hr {
 }
 .amijeet-img {
 	border-radius: 100%;
-	margin-top: 30px;
-	width: 25%;
-	padding-right: 20px;
+	margin-top: 70px;
+	width: 30%;
 }
 .something-about-me-description {
 	text-align: justify;
@@ -100,9 +101,9 @@ hr {
 }
 .projects {
 	text-align: left;
-	padding: 50px;
+	padding: 50px 0px 50px 0px;
 }
-.desk {
+.rocket {
 	width: 25%;
 	float: left;
 	padding-right: 20px;
@@ -125,4 +126,3 @@ a {
 	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
 	margin-top: 50px;
 }
-/* cloud dimensions 200*100 is the best */
