@@ -130,6 +130,10 @@ hr {
 }
 a {
 	padding: 0 20px 0 20px;
+	text-decoration: none;
+}
+a:hover {
+	color: #009cff;
 }
 .contactMeFooter {
 	display: inline;
